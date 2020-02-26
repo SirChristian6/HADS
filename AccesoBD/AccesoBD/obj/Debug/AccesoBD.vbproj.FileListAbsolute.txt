@@ -1,0 +1,10 @@
+C:\Users\Christian\source\repos\AccesoBD\AccesoBD\bin\Debug\AccesoBD.dll
+C:\Users\Christian\source\repos\AccesoBD\AccesoBD\bin\Debug\AccesoBD.pdb
+C:\Users\Christian\source\repos\AccesoBD\AccesoBD\bin\Debug\AccesoBD.xml
+C:\Users\Christian\source\repos\AccesoBD\AccesoBD\obj\Debug\AccesoBD.vbprojAssemblyReference.cache
+C:\Users\Christian\source\repos\AccesoBD\AccesoBD\obj\Debug\AccesoBD.Resources.resources
+C:\Users\Christian\source\repos\AccesoBD\AccesoBD\obj\Debug\AccesoBD.vbproj.GenerateResource.cache
+C:\Users\Christian\source\repos\AccesoBD\AccesoBD\obj\Debug\AccesoBD.vbproj.CoreCompileInputs.cache
+C:\Users\Christian\source\repos\AccesoBD\AccesoBD\obj\Debug\AccesoBD.dll
+C:\Users\Christian\source\repos\AccesoBD\AccesoBD\obj\Debug\AccesoBD.xml
+C:\Users\Christian\source\repos\AccesoBD\AccesoBD\obj\Debug\AccesoBD.pdb
