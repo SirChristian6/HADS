@@ -92,14 +92,26 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="GruposAlumnos.aspx" />
+    <Content Include="TareasPropiasAlumnos.aspx" />
     <Content Include="Web.config" />
     <Content Include="default.aspx" />
     <Content Include="Registro.aspx" />
     <Content Include="Recuperacion.aspx" />
     <Content Include="ActivarCuenta.aspx" />
     <Content Include="Menu.aspx" />
+    <Content Include="Alumnos.aspx" />
+    <Content Include="TareasAlumno.aspx" />
+    <Content Include="InstanciarTarea.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GruposAlumnos.aspx.designer.vb">
+      <DependentUpon>GruposAlumnos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GruposAlumnos.aspx.vb">
+      <DependentUpon>GruposAlumnos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -152,6 +164,34 @@
     </Compile>
     <Compile Include="Menu.aspx.vb">
       <DependentUpon>Menu.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Alumnos.aspx.designer.vb">
+      <DependentUpon>Alumnos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Alumnos.aspx.vb">
+      <DependentUpon>Alumnos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="TareasPropiasAlumnos.aspx.designer.vb">
+      <DependentUpon>TareasPropiasAlumnos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TareasPropiasAlumnos.aspx.vb">
+      <DependentUpon>TareasPropiasAlumnos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="TareasAlumno.aspx.designer.vb">
+      <DependentUpon>TareasAlumno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TareasAlumno.aspx.vb">
+      <DependentUpon>TareasAlumno.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="InstanciarTarea.aspx.designer.vb">
+      <DependentUpon>InstanciarTarea.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InstanciarTarea.aspx.vb">
+      <DependentUpon>InstanciarTarea.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
