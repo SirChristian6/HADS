@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class WebForm7
+Partial Public Class TareasProfesor
     
     '''<summary>
     '''Control form1.
@@ -23,13 +23,13 @@ Partial Public Class WebForm7
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
     
     '''<summary>
-    '''Control email.
+    '''Control Email.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents email As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Email As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
     '''Control LogOut.
@@ -50,6 +50,15 @@ Partial Public Class WebForm7
     Protected WithEvents Inicio As Global.System.Web.UI.WebControls.LinkButton
     
     '''<summary>
+    '''Control Label2.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Label2 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
     '''Control asignatura.
     '''</summary>
     '''<remarks>
@@ -59,13 +68,13 @@ Partial Public Class WebForm7
     Protected WithEvents asignatura As Global.System.Web.UI.WebControls.DropDownList
     
     '''<summary>
-    '''Control Tasks.
+    '''Control Show.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Tasks As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents Show As Global.System.Web.UI.WebControls.Button
     
     '''<summary>
     '''Control SqlDataSource1.
@@ -77,6 +86,15 @@ Partial Public Class WebForm7
     Protected WithEvents SqlDataSource1 As Global.System.Web.UI.WebControls.SqlDataSource
     
     '''<summary>
+    '''Control NewTask.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents NewTask As Global.System.Web.UI.WebControls.Button
+    
+    '''<summary>
     '''Control GridView1.
     '''</summary>
     '''<remarks>
@@ -84,4 +102,13 @@ Partial Public Class WebForm7
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
+    
+    '''<summary>
+    '''Control SqlDataSource2.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents SqlDataSource2 As Global.System.Web.UI.WebControls.SqlDataSource
 End Class

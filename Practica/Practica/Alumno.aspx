@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Alumnos.aspx.vb" Inherits="Practica.WebForm6" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Alumno.aspx.vb" Inherits="Practica.WebForm6" %>
 
 <!DOCTYPE html>
 
@@ -11,6 +11,11 @@
     <form id="form1" runat="server">
         
         <div>
+            <asp:Label ID="Email" runat="server"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:LinkButton ID="LogOut" runat="server">Cerrar Sesión</asp:LinkButton>
+            <br />
+            <br />
             <asp:LinkButton ID="Tasks" runat="server">Tareas Genéricas</asp:LinkButton>
             <br />
             <br />

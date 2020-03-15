@@ -11,8 +11,10 @@
     <form id="form1" runat="server">
         <div>
             <asp:Label ID="email" runat="server"></asp:Label>
-&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:LinkButton ID="LogOut" runat="server">Cerrar Sesión</asp:LinkButton>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:LinkButton ID="Inicio" runat="server">Ir a Inicio</asp:LinkButton>
             <br />
             <br />
         </div>
@@ -21,8 +23,7 @@
         </asp:DropDownList>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Button ID="Tasks" runat="server" Text="Ver Tareas" />
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:AmigosConnectionString %>" SelectCommand="SELECT GruposClase.codigoasig FROM GruposClase INNER JOIN EstudiantesGrupo ON EstudiantesGrupo.Grupo = GruposClase.codigo WHERE (EstudiantesGrupo.Email = @Email)
-">
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:AmigosConnectionString %>" SelectCommand="ObtenerAsignaturaAlumnoG11" SelectCommandType="StoredProcedure">
             <SelectParameters>
                 <asp:SessionParameter Name="Email" SessionField="user" />
             </SelectParameters>

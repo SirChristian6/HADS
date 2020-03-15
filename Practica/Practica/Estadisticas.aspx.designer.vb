@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class WebForm7
+Partial Public Class Estadisticas
     
     '''<summary>
     '''Control form1.
@@ -23,13 +23,13 @@ Partial Public Class WebForm7
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
     
     '''<summary>
-    '''Control email.
+    '''Control Email.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents email As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Email As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
     '''Control LogOut.
@@ -50,22 +50,13 @@ Partial Public Class WebForm7
     Protected WithEvents Inicio As Global.System.Web.UI.WebControls.LinkButton
     
     '''<summary>
-    '''Control asignatura.
+    '''Control alumno.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents asignatura As Global.System.Web.UI.WebControls.DropDownList
-    
-    '''<summary>
-    '''Control Tasks.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents Tasks As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents alumno As Global.System.Web.UI.WebControls.DropDownList
     
     '''<summary>
     '''Control SqlDataSource1.
@@ -77,11 +68,20 @@ Partial Public Class WebForm7
     Protected WithEvents SqlDataSource1 As Global.System.Web.UI.WebControls.SqlDataSource
     
     '''<summary>
-    '''Control GridView1.
+    '''Control Chart1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents Chart1 As Global.System.Web.UI.DataVisualization.Charting.Chart
+    
+    '''<summary>
+    '''Control SqlDataSource2.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents SqlDataSource2 As Global.System.Web.UI.WebControls.SqlDataSource
 End Class

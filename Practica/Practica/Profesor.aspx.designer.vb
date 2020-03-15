@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class WebForm7
+Partial Public Class WebForm9
     
     '''<summary>
     '''Control form1.
@@ -23,13 +23,13 @@ Partial Public Class WebForm7
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
     
     '''<summary>
-    '''Control email.
+    '''Control Email.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents email As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Email As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
     '''Control LogOut.
@@ -41,47 +41,65 @@ Partial Public Class WebForm7
     Protected WithEvents LogOut As Global.System.Web.UI.WebControls.LinkButton
     
     '''<summary>
-    '''Control Inicio.
+    '''Control Asignaturas.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Inicio As Global.System.Web.UI.WebControls.LinkButton
+    Protected WithEvents Asignaturas As Global.System.Web.UI.WebControls.LinkButton
     
     '''<summary>
-    '''Control asignatura.
+    '''Control Tareas.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents asignatura As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents Tareas As Global.System.Web.UI.WebControls.LinkButton
     
     '''<summary>
-    '''Control Tasks.
+    '''Control Grupos.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Tasks As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents Grupos As Global.System.Web.UI.WebControls.LinkButton
     
     '''<summary>
-    '''Control SqlDataSource1.
+    '''Control XML.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents SqlDataSource1 As Global.System.Web.UI.WebControls.SqlDataSource
+    Protected WithEvents XML As Global.System.Web.UI.WebControls.LinkButton
     
     '''<summary>
-    '''Control GridView1.
+    '''Control Exportar.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents Exportar As Global.System.Web.UI.WebControls.LinkButton
+    
+    '''<summary>
+    '''Control DataSet.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents DataSet As Global.System.Web.UI.WebControls.LinkButton
+    
+    '''<summary>
+    '''Control Estadisticas.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Estadisticas As Global.System.Web.UI.WebControls.LinkButton
 End Class

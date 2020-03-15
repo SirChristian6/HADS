@@ -2,14 +2,16 @@
 
 Public Class WebForm7
     Inherits System.Web.UI.Page
-
+    Private Shared conClsf As New SqlConnection
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         If Session("user") Is Nothing Then
             Response.Redirect("~/default.aspx")
+        ElseIf Session("tipo") = "Profesor" Then
+            Response.Redirect("~/Profesor.aspx")
         End If
         email.Text = Session("user")
 
-        Dim conClsf As SqlConnection
+
         conClsf = New SqlConnection("Server=tcp:hads.database.windows.net,1433;Initial Catalog=Amigos;Persist Security Info=False;User ID=vadillo@ehu.es@hads;Password=curso19-20;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;")
         Dim dapMbrs As New SqlDataAdapter()
         Dim dstMbrs As New DataSet
@@ -50,10 +52,16 @@ Public Class WebForm7
     End Sub
 
     Protected Sub GridView1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles GridView1.SelectedIndexChanged
+        Dim row As GridViewRow = GridView1.Rows(GridView1.SelectedIndex)
 
-        Dim row As GridViewRow = GridView1.SelectedRow
-        Dim n As Integer = 1
-        row.Cells(3, 0)
-        Response.Redirect("~/InstanciarTarea.aspx?asig=" & Request("asignatura") & "&&row=" & GridView1.SelectedIndex)
+        Response.Redirect("~/InstanciarTarea.aspx?tarea=" & row.Cells(1).Text & "&hest=" & row.Cells(3).Text)
+    End Sub
+
+    Protected Sub Page_Unload(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Unload
+        conClsf.Close()
+    End Sub
+
+    Protected Sub Inicio_Click(sender As Object, e As EventArgs) Handles Inicio.Click
+        Response.Redirect("~/Alumno.aspx")
     End Sub
 End Class

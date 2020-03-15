@@ -3,7 +3,10 @@ Public Class WebForm2
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        AccesoBD.AccesoBD.conectarBD()
+        If Session("user") IsNot Nothing Then
+            MyBase.Response.Redirect("~/" & Session("tipo") & ".aspx")
+        End If
+        AccesoBD.AccesoBD.ConectarBD()
     End Sub
 
     Protected Sub SignUp_Click(sender As Object, e As EventArgs) Handles SignUp.Click

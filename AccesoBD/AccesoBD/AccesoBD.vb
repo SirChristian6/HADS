@@ -54,22 +54,24 @@ Public Class AccesoBD
         Return ("Cuenta validada correctamente.")
     End Function
 
-    Public Shared Function LogIn(ByVal email As String, ByVal pass As String) As Boolean
+    Public Shared Function LogIn(ByVal email As String, ByVal pass As String) As String
 
-        Dim st = "select count(*) from Usuarios where email='" & email & "' and pass='" & pass & "' and confirmado='True'"
-        Dim numregs As Integer
+        Dim st = "select tipo from Usuarios where email='" & email & "' and pass='" & pass & "' and confirmado='True'"
+        Dim rs As SqlDataReader
         comando = New SqlCommand(st, conexion)
         Try
-            numregs = comando.ExecuteScalar()
-            If numregs = 1 Then
-                Return True
+            rs = comando.ExecuteReader()
+            rs.Read()
+
+            If Not rs.Item("tipo") Is Nothing Then
+                Return rs.Item("tipo")
             Else
-                Return False
+                Return "hacker"
             End If
         Catch ex As Exception
-            Return False
+            Return "hacker"
         End Try
-        Return False
+        Return "hacker"
     End Function
 
     Public Shared Function AnadirSolicitudCambioPass(ByVal email As String, ByVal codpass As Integer) As Boolean
@@ -93,7 +95,7 @@ Public Class AccesoBD
     Public Shared Function CambiarPass(ByVal email As String, ByVal pass As String, ByVal codpass As Integer) As Boolean
 
         Dim st = "update Usuarios set pass='" & pass & "' where email='" & email & "' and codpass=" & codpass & ""
-        'MsgBox(st)
+
         Dim numregs As Integer
         comando = New SqlCommand(st, conexion)
         Try
