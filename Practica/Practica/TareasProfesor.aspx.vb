@@ -17,4 +17,8 @@
     Protected Sub Inicio_Click(sender As Object, e As EventArgs) Handles Inicio.Click
         Response.Redirect("~/Profesor.aspx")
     End Sub
+
+    Protected Sub Show_Click(sender As Object, e As EventArgs) Handles Show.Click
+
+    End Sub
 End Class

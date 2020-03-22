@@ -1,0 +1,18 @@
+﻿[
+  {
+    "Codigo": "ISO20-Lab1",
+    "Descripcion": "Lab 1",
+    "CodAsig": "ISO",
+    "HEstimadas": 12,
+    "Explotacion": true,
+    "TipoTarea": "Ejercicio"
+  },
+  {
+    "Codigo": "ISO20-Test2",
+    "Descripcion": "Segundo examen ",
+    "CodAsig": "ISO",
+    "HEstimadas": 2,
+    "Explotacion": true,
+    "TipoTarea": "Examen"
+  }
+]

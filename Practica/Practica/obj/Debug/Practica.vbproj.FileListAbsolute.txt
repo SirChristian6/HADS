@@ -66,3 +66,5 @@ C:\Users\Christian\source\repos\Practica\Practica\bin\AccesoBD.pdb
 C:\Users\Christian\source\repos\Practica\Practica\bin\AccesoBD.xml
 C:\Users\Christian\source\repos\Practica\Practica\bin\EmailLibrary.pdb
 C:\Users\Christian\source\repos\Practica\Practica\bin\EmailLibrary.xml
+C:\Users\Christian\source\repos\Practica\Practica\bin\Newtonsoft.Json.dll
+C:\Users\Christian\source\repos\Practica\Practica\bin\Newtonsoft.Json.xml

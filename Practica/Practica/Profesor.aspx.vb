@@ -15,7 +15,7 @@
     End Sub
 
     Protected Sub Exportar_Click(sender As Object, e As EventArgs) Handles Exportar.Click
-        Response.Redirect("~/default.aspx")
+        Response.Redirect("~/Exportar.aspx")
     End Sub
 
     Protected Sub LogOut_Click(sender As Object, e As EventArgs) Handles LogOut.Click
@@ -32,11 +32,11 @@
     End Sub
 
     Protected Sub XML_Click(sender As Object, e As EventArgs) Handles XML.Click
-        Response.Redirect("~/default.aspx")
+        Response.Redirect("~/ImportarXML.aspx")
     End Sub
 
     Protected Sub DataSet_Click(sender As Object, e As EventArgs) Handles DataSet.Click
-        Response.Redirect("~/default.aspx")
+        Response.Redirect("~/ImportarDataSet.aspx")
     End Sub
 
     Protected Sub Estadisticas_Click(sender As Object, e As EventArgs) Handles Estadisticas.Click

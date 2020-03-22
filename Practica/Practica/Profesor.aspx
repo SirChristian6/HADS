@@ -25,13 +25,13 @@
         <asp:LinkButton ID="Grupos" runat="server">Grupos</asp:LinkButton>
         <br />
         <br />
-        <asp:LinkButton ID="XML" runat="server">Importar y XML Document</asp:LinkButton>
+        <asp:LinkButton ID="XML" runat="server">Importar v. XML Document</asp:LinkButton>
         <br />
         <br />
         <asp:LinkButton ID="Exportar" runat="server">Exportar</asp:LinkButton>
         <br />
         <br />
-        <asp:LinkButton ID="DataSet" runat="server">Importar y DataSet</asp:LinkButton>
+        <asp:LinkButton ID="DataSet" runat="server">Importar v. DataSet</asp:LinkButton>
         <br />
         <br />
         <asp:LinkButton ID="Estadisticas" runat="server">Estadisticas Alumnos</asp:LinkButton>
