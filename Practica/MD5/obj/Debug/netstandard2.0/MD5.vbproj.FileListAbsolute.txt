@@ -1,0 +1,9 @@
+C:\Users\Christian\source\repos\Practica\MD5\bin\Debug\netstandard2.0\MD5.deps.json
+C:\Users\Christian\source\repos\Practica\MD5\bin\Debug\netstandard2.0\MD5.dll
+C:\Users\Christian\source\repos\Practica\MD5\bin\Debug\netstandard2.0\MD5.pdb
+C:\Users\Christian\source\repos\Practica\MD5\obj\Debug\netstandard2.0\MD5.vbprojAssemblyReference.cache
+C:\Users\Christian\source\repos\Practica\MD5\obj\Debug\netstandard2.0\MD5.vbproj.CoreCompileInputs.cache
+C:\Users\Christian\source\repos\Practica\MD5\obj\Debug\netstandard2.0\MD5.AssemblyInfoInputs.cache
+C:\Users\Christian\source\repos\Practica\MD5\obj\Debug\netstandard2.0\MD5.AssemblyInfo.vb
+C:\Users\Christian\source\repos\Practica\MD5\obj\Debug\netstandard2.0\MD5.dll
+C:\Users\Christian\source\repos\Practica\MD5\obj\Debug\netstandard2.0\MD5.pdb

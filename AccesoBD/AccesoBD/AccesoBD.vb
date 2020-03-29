@@ -19,7 +19,7 @@ Public Class AccesoBD
     End Sub
 
     Public Shared Function InsertarUsuario(ByVal email As String, ByVal nombre As String, ByVal apellidos As String, ByVal numconfir As Integer, ByVal tipo As String, ByVal pass As String) As Boolean
-        Dim st = "insert into Usuarios (email,nombre,apellidos,numconfir,confirmado,tipo,pass,codpass) values ('" & email & " ','" & nombre & " ','" & apellidos & " '," & numconfir & " ,0,'" & tipo & " ','" & pass & " ',0)"
+        Dim st = "insert into Usuarios (email,nombre,apellidos,numconfir,confirmado,tipo,pass,codpass) values ('" & email & "','" & nombre & "','" & apellidos & "'," & numconfir & " ,0,'" & tipo & "','" & pass & "',0)"
         Dim numregs As Integer
         comando = New SqlCommand(st, conexion)
         Try

@@ -17,7 +17,8 @@ Public Class WebForm3
 
     Protected Sub Change_Click(sender As Object, e As EventArgs) Handles Change.Click
         Dim numconfir As Integer = NumConfirmacion.Text
-        If (AccesoBD.AccesoBD.CambiarPass(Email.Text, Pass1.Text, numconfir)) Then
+        Dim passCod As String = MD5.MD5.Encode(Pass1.Text)
+        If (AccesoBD.AccesoBD.CambiarPass(Email.Text, passCod, numconfir)) Then
             Response2.Text = "Contraseña cambiada correctamente."
         Else Response2.Text = "Datos incorrectos."
         End If
