@@ -1,4 +1,5 @@
-﻿Public Class WebForm1
+﻿Imports System.Collections
+Public Class WebForm1
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
@@ -21,6 +22,29 @@
             Else
                 System.Web.Security.FormsAuthentication.SetAuthCookie(tipo, False)
             End If
+
+            Application.Lock()
+
+            If tipo = "Alumno" Then
+                Dim myAL As New ArrayList()
+                Dim numAl As Integer = Application.Contents("NumAlumnos")
+                If Application.Contents("Alumnos") IsNot Nothing Then
+                    myAL = Application.Contents("Alumnos")
+                End If
+                myAL.Add(Email.Text)
+                Application.Contents("Alumnos") = myAL
+                Application.Contents("NumAlumnos") = numAl + 1
+            ElseIf tipo = "Profesor" Then
+                Dim myPr As New ArrayList()
+                Dim numPr As Integer = Application.Contents("NumProfesores")
+                If Application.Contents("Profesores") IsNot Nothing Then
+                    myPr = Application.Contents("Profesores")
+                End If
+                myPr.Add(Email.Text)
+                Application.Contents("Profesores") = myPr
+                Application.Contents("NumProfesores") = numPr + 1
+            End If
+            Application.UnLock()
             MyBase.Response.Redirect("~/" & tipo & "/" & tipo & ".aspx")
         Else
             Response.Text = "Una cuenta con ese usuario y contraseña no existe o no esta activada."

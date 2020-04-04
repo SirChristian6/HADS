@@ -41,6 +41,33 @@ Partial Public Class WebForm9
     Protected WithEvents LogOut As Global.System.Web.UI.WebControls.LinkButton
     
     '''<summary>
+    '''Control DragPanelExtender1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents DragPanelExtender1 As Global.AjaxControlToolkit.DragPanelExtender
+    
+    '''<summary>
+    '''Control Panel1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Panel1 As Global.System.Web.UI.WebControls.Panel
+    
+    '''<summary>
+    '''Control Panel2.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Panel2 As Global.System.Web.UI.WebControls.Panel
+    
+    '''<summary>
     '''Control Asignaturas.
     '''</summary>
     '''<remarks>
@@ -102,4 +129,94 @@ Partial Public Class WebForm9
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Estadisticas As Global.System.Web.UI.WebControls.LinkButton
+    
+    '''<summary>
+    '''Control ScriptManager1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents ScriptManager1 As Global.System.Web.UI.ScriptManager
+    
+    '''<summary>
+    '''Control DragPanelExtender2.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents DragPanelExtender2 As Global.AjaxControlToolkit.DragPanelExtender
+    
+    '''<summary>
+    '''Control Panel3.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Panel3 As Global.System.Web.UI.WebControls.Panel
+    
+    '''<summary>
+    '''Control Panel4.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Panel4 As Global.System.Web.UI.WebControls.Panel
+    
+    '''<summary>
+    '''Control UpdatePanel1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents UpdatePanel1 As Global.System.Web.UI.UpdatePanel
+    
+    '''<summary>
+    '''Control UpdateProgress1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents UpdateProgress1 As Global.System.Web.UI.UpdateProgress
+    
+    '''<summary>
+    '''Control Count.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Count As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''Control Timer1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Timer1 As Global.System.Web.UI.Timer
+    
+    '''<summary>
+    '''Control Alumnos.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Alumnos As Global.System.Web.UI.WebControls.ListBox
+    
+    '''<summary>
+    '''Control Profesores.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Profesores As Global.System.Web.UI.WebControls.ListBox
 End Class

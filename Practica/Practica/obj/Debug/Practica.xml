@@ -1342,6 +1342,69 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Practica.WebForm6._ScriptManager1">
+<summary>
+Control ScriptManager1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.WebForm6._UpdatePanel1">
+<summary>
+Control UpdatePanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.WebForm6._UpdateProgress1">
+<summary>
+Control UpdateProgress1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.WebForm6._Count">
+<summary>
+Control Count.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.WebForm6._Alumnos">
+<summary>
+Control Alumnos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.WebForm6._Profesores">
+<summary>
+Control Profesores.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.WebForm6._Timer1">
+<summary>
+Control Timer1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Practica.TareasProfesor._form1">
 <summary>
 Control form1.
@@ -1387,6 +1450,24 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Practica.TareasProfesor._ScriptManager1">
+<summary>
+Control ScriptManager1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.TareasProfesor._UpdatePanel1">
+<summary>
+Control UpdatePanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Practica.TareasProfesor._asignatura">
 <summary>
 Control asignatura.
@@ -1396,9 +1477,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Practica.TareasProfesor._Show">
+<member name="F:Practica.TareasProfesor._UpdateProgress1">
 <summary>
-Control Show.
+Control UpdateProgress1.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1414,9 +1495,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Practica.TareasProfesor._NewTask">
+<member name="F:Practica.TareasProfesor._Timer1">
 <summary>
-Control NewTask.
+Control Timer1.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1426,6 +1507,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Practica.TareasProfesor._GridView1">
 <summary>
 Control GridView1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.TareasProfesor._NewTask">
+<summary>
+Control NewTask.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1711,6 +1801,33 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Practica.WebForm9._DragPanelExtender1">
+<summary>
+Control DragPanelExtender1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.WebForm9._Panel1">
+<summary>
+Control Panel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.WebForm9._Panel2">
+<summary>
+Control Panel2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Practica.WebForm9._Asignaturas">
 <summary>
 Control Asignaturas.
@@ -1768,6 +1885,96 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Practica.WebForm9._Estadisticas">
 <summary>
 Control Estadisticas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.WebForm9._ScriptManager1">
+<summary>
+Control ScriptManager1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.WebForm9._DragPanelExtender2">
+<summary>
+Control DragPanelExtender2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.WebForm9._Panel3">
+<summary>
+Control Panel3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.WebForm9._Panel4">
+<summary>
+Control Panel4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.WebForm9._UpdatePanel1">
+<summary>
+Control UpdatePanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.WebForm9._UpdateProgress1">
+<summary>
+Control UpdateProgress1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.WebForm9._Count">
+<summary>
+Control Count.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.WebForm9._Timer1">
+<summary>
+Control Timer1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.WebForm9._Alumnos">
+<summary>
+Control Alumnos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.WebForm9._Profesores">
+<summary>
+Control Profesores.
 </summary>
 <remarks>
 Campo generado automáticamente.

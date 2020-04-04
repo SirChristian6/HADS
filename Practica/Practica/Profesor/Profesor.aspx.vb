@@ -21,6 +21,17 @@
     Protected Sub LogOut_Click(sender As Object, e As EventArgs) Handles LogOut.Click
         System.Web.Security.FormsAuthentication.SignOut()
         Session.Abandon()
+
+        Application.Lock()
+        Dim myPr As New ArrayList()
+        Dim numPr As Integer = Application.Contents("NumProfesores")
+        myPr = Application.Contents("Profesores")
+
+        myPr.Remove(Session("user"))
+        Application.Contents("Profesores") = myPr
+        Application.Contents("NumProfesores") = numPr - 1
+        Application.UnLock()
+
         Response.Redirect("../default.aspx")
     End Sub
 
@@ -42,5 +53,28 @@
 
     Protected Sub Estadisticas_Click(sender As Object, e As EventArgs) Handles Estadisticas.Click
         Response.Redirect("Estadisticas.aspx")
+    End Sub
+
+    Protected Sub Update(sender As Object, e As EventArgs) Handles UpdatePanel1.Load
+        Threading.Thread.Sleep(2000)
+        Application.Lock()
+        Dim myPr As New ArrayList()
+        myPr = Application.Contents("Profesores")
+        Dim myAl As New ArrayList()
+        myAl = Application.Contents("Alumnos")
+        Dim numAl As Integer = Application.Contents("NumAlumnos")
+        Dim numPr As Integer = Application.Contents("NumProfesores")
+        Count.Text = "Nº Alumnos conectados= " & numAl & " / Nº Profesores conectados= " & numPr
+        Profesores.Items.Clear()
+
+        For i As Integer = 0 To numPr - 1
+            Profesores.Items.Add(myPr.Item(i))
+        Next
+
+        Alumnos.Items.Clear()
+        For i As Integer = 0 To numAl - 1
+            Alumnos.Items.Add(myAl.Item(i))
+        Next
+        Application.UnLock()
     End Sub
 End Class

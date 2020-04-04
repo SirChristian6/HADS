@@ -48,7 +48,16 @@ Public Class WebForm7
 
     Protected Sub LogOut_Click(sender As Object, e As EventArgs) Handles LogOut.Click
         System.Web.Security.FormsAuthentication.SignOut()
+        Application.Lock()
 
+        Dim myAL As New ArrayList()
+        myAL = Application.Contents("Alumnos")
+        Dim numAl As Integer = Application.Contents("NumAlumnos")
+        myAL.Remove(Session("user"))
+        Application.Contents("Alumnos") = myAL
+        Application.Contents("NumAlumnos") = numAl - 1
+
+        Application.UnLock()
         Session.Abandon()
         Response.Redirect("../default.aspx")
     End Sub
