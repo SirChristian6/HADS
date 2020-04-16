@@ -15,6 +15,8 @@
             <asp:Label ID="Email" runat="server"></asp:Label>
 &nbsp;&nbsp;&nbsp;
             <asp:LinkButton ID="LogOut" runat="server">Cerrar Sesión</asp:LinkButton>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:LinkButton ID="Coordinador" runat="server">Zona Coordinador</asp:LinkButton>
             <br />
 
 

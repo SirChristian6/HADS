@@ -111,4 +111,24 @@ Public Class AccesoBD
         End Try
         Return False
     End Function
+
+    Public Shared Function HorasMediasAsignatura(ByVal asignatura As String) As Double
+
+        Dim st = "select (CAST(sum(EstudiantesTareas.hreales) AS DECIMAL(5,1))/Count(Distinct EstudiantesTareas.email)) patata from TareasGenericas Inner Join EstudiantesTareas on TareasGenericas.Codigo=EstudiantesTareas.CodTarea Where TareasGenericas.CodAsig='" & asignatura & "'"
+        Dim rs As SqlDataReader
+        comando = New SqlCommand(st, conexion)
+        Try
+            rs = comando.ExecuteReader()
+            rs.Read()
+
+            If Not rs.Item("patata") Is Nothing Then
+                Return rs.Item("patata")
+            Else
+                Return -2
+            End If
+        Catch ex As Exception
+            Return -1
+        End Try
+        Return 0
+    End Function
 End Class

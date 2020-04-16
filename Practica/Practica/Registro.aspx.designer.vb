@@ -23,6 +23,24 @@ Partial Public Class WebForm2
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
     
     '''<summary>
+    '''Control ScriptManager1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents ScriptManager1 As Global.System.Web.UI.ScriptManager
+    
+    '''<summary>
+    '''Control UpdatePanel1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents UpdatePanel1 As Global.System.Web.UI.UpdatePanel
+    
+    '''<summary>
     '''Control Label1.
     '''</summary>
     '''<remarks>
@@ -39,6 +57,15 @@ Partial Public Class WebForm2
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Email As Global.System.Web.UI.WebControls.TextBox
+    
+    '''<summary>
+    '''Control Matriculado.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Matriculado As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
     '''Control RegularExpressionValidator1.
@@ -131,6 +158,15 @@ Partial Public Class WebForm2
     Protected WithEvents Pass1 As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
+    '''Control Valida.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Valida As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
     '''Control RequiredFieldValidator4.
     '''</summary>
     '''<remarks>
@@ -212,11 +248,11 @@ Partial Public Class WebForm2
     Protected WithEvents LogIn As Global.System.Web.UI.WebControls.Button
     
     '''<summary>
-    '''Control Response.
+    '''Control Respuesta.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Response As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Respuesta As Global.System.Web.UI.WebControls.Label
 End Class

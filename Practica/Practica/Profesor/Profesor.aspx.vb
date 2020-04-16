@@ -77,4 +77,8 @@
         Next
         Application.UnLock()
     End Sub
+
+    Protected Sub Coordinador_Click(sender As Object, e As EventArgs) Handles Coordinador.Click
+        Response.Redirect("DaBoss/Coordinador.aspx")
+    End Sub
 End Class

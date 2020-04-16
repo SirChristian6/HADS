@@ -82,6 +82,87 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Practica.Coordinador._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.Coordinador._Email">
+<summary>
+Control Email.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.Coordinador._LogOut">
+<summary>
+Control LogOut.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.Coordinador._Profesor">
+<summary>
+Control Profesor.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.Coordinador._ScriptManager1">
+<summary>
+Control ScriptManager1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.Coordinador._UpdatePanel1">
+<summary>
+Control UpdatePanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.Coordinador._DropDownList1">
+<summary>
+Control DropDownList1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.Coordinador._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.Coordinador._Respuesta">
+<summary>
+Control Respuesta.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Practica.Estadisticas._form1">
 <summary>
 Control form1.
@@ -811,6 +892,24 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Practica.WebForm2._ScriptManager1">
+<summary>
+Control ScriptManager1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.WebForm2._UpdatePanel1">
+<summary>
+Control UpdatePanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Practica.WebForm2._Label1">
 <summary>
 Control Label1.
@@ -823,6 +922,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Practica.WebForm2._Email">
 <summary>
 Control Email.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Practica.WebForm2._Matriculado">
+<summary>
+Control Matriculado.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -919,6 +1027,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Practica.WebForm2._Valida">
+<summary>
+Control Valida.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Practica.WebForm2._RequiredFieldValidator4">
 <summary>
 Control RequiredFieldValidator4.
@@ -1000,9 +1117,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Practica.WebForm2._Response">
+<member name="F:Practica.WebForm2._Respuesta">
 <summary>
-Control Response.
+Control Respuesta.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1801,6 +1918,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Practica.WebForm9._Coordinador">
+<summary>
+Control Coordinador.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Practica.WebForm9._DragPanelExtender1">
 <summary>
 Control DragPanelExtender1.
@@ -1980,6 +2106,36 @@ Control Profesores.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member>
+<member name="T:Practica.ComprobarMatricula.Matriculas">
+<remarks/>
+</member>
+<member name="M:Practica.ComprobarMatricula.Matriculas.#ctor">
+<remarks/>
+</member>
+<member name="E:Practica.ComprobarMatricula.Matriculas.comprobarCompleted">
+<remarks/>
+</member>
+<member name="M:Practica.ComprobarMatricula.Matriculas.comprobar(System.String)">
+<remarks/>
+</member>
+<member name="M:Practica.ComprobarMatricula.Matriculas.comprobarAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Practica.ComprobarMatricula.Matriculas.comprobarAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Practica.ComprobarMatricula.Matriculas.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:Practica.ComprobarMatricula.comprobarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Practica.ComprobarMatricula.comprobarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Practica.ComprobarMatricula.comprobarCompletedEventArgs.Result">
+<remarks/>
 </member>
 </members>
 </doc>
