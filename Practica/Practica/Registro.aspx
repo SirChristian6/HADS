@@ -43,7 +43,7 @@
                     <div>
                         <asp:Label ID="Label4" runat="server" Text="Contraseña: "></asp:Label>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:TextBox ID="Pass1" runat="server" TextMode="Password"></asp:TextBox>
+                        <asp:TextBox ID="Pass1" runat="server" TextMode="Password" AutoPostBack="True"></asp:TextBox>
                         <asp:Label ID="Valida" runat="server"></asp:Label>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="Pass1" ErrorMessage="Campo requerido" ForeColor="Red" ValidationGroup="SignUp"></asp:RequiredFieldValidator>
                         <br />

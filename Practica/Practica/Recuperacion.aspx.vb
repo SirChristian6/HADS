@@ -3,9 +3,7 @@ Public Class WebForm3
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        If Session("user") IsNot Nothing Then
-            MyBase.Response.Redirect("~/" & Session("tipo") & ".aspx")
-        End If
+
         AccesoBD.AccesoBD.ConectarBD()
         If Not Page.IsPostBack Then
             If Request IsNot Nothing Then

@@ -3,10 +3,9 @@ Public Class WebForm2
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        If Session("user") IsNot Nothing Then
-            MyBase.Response.Redirect("~/" & Session("tipo") & ".aspx")
-        End If
+
         AccesoBD.AccesoBD.ConectarBD()
+
     End Sub
 
     Protected Sub SignUp_Click(sender As Object, e As EventArgs) Handles SignUp.Click
@@ -17,8 +16,7 @@ Public Class WebForm2
         Respuesta.Text = numconfir
         Dim passCod As String = MD5.MD5.Encode(Pass1.Text)
         Dim cm As New ComprobarMatricula.Matriculas
-        Dim ps As New Pass.PasswordClient
-
+        Dim ps As New Pass.SafePassClient
         If cm.comprobar(Email.Text) = "SI" Then
             If ps.esSegura(Pass1.Text) = "valida" Then
 
@@ -50,7 +48,7 @@ Public Class WebForm2
         If cm.comprobar(Email.Text) = "SI" Then
             Matriculado.Text = "Puede registrarse tranquilamente :)"
 
-            Dim ps As New Pass.PasswordClient
+            Dim ps As New Pass.SafePassClient
             If ps.esSegura(Pass1.Text) = "valida" Then
                 SignUp.Enabled = True
             Else
@@ -64,7 +62,7 @@ Public Class WebForm2
     End Sub
 
     Protected Sub Pass1_TextChanged(sender As Object, e As EventArgs) Handles Pass1.TextChanged
-        Dim ps As New Pass.PasswordClient
+        Dim ps As New Pass.SafePassClient
         If ps.esSegura(Pass1.Text) = "valida" Then
             Valida.Text = "La contraseña es segura :)"
             Dim cm As New ComprobarMatricula.Matriculas
@@ -77,5 +75,11 @@ Public Class WebForm2
             Valida.Text = "La contraseña no es segura :("
             SignUp.Enabled = False
         End If
+    End Sub
+
+
+    Protected Sub UpdatePanelLoad(sender As Object, e As EventArgs) Handles UpdatePanel1.Load
+        Pass1.Attributes.Add("value", Pass1.Text)
+        Pass2.Attributes.Add("value", Pass2.Text)
     End Sub
 End Class

@@ -29,7 +29,7 @@
         <div>
             <asp:Button ID="LogIn" runat="server" Text="Iniciar Sesión" ValidationGroup="LogIn" />
 &nbsp;&nbsp;&nbsp;
-            <asp:Button ID="SignUp" runat="server" style="margin-bottom: 0px" Text="Registrarse" />
+            <asp:Button ID="SignUp" runat="server" style="margin-bottom: 0px" Text="Registrarse" CausesValidation="False" UseSubmitBehavior="False" />
         &nbsp;&nbsp;&nbsp;
             <asp:Button ID="ChangeRequest" runat="server" Text="He olvidado mi contraseña" />
         </div>

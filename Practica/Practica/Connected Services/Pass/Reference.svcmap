@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1f68fe96-2e65-435b-8915-568795151b8e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7769c29d-e58a-48b2-967b-cb9f7338cb36" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,13 +19,13 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:55409/Password.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:49995/SafePass.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="Password.wsdl" MetadataType="Wsdl" ID="a4fd09f8-8577-4bd0-a464-1c27db66be08" SourceId="1" SourceUrl="http://localhost:55409/Password.svc?wsdl" />
-    <MetadataFile FileName="Password.xsd" MetadataType="Schema" ID="bee97352-6adc-4611-a256-9cdfad1252e6" SourceId="1" SourceUrl="http://localhost:55409/Password.svc?xsd=xsd0" />
-    <MetadataFile FileName="Password.disco" MetadataType="Disco" ID="ab7f5fe5-dad4-4657-92a3-c9bbe849b026" SourceId="1" SourceUrl="http://localhost:55409/Password.svc?disco" />
-    <MetadataFile FileName="Password1.xsd" MetadataType="Schema" ID="cd9d0065-8277-4b39-a974-7d45ffc15b19" SourceId="1" SourceUrl="http://localhost:55409/Password.svc?xsd=xsd1" />
+    <MetadataFile FileName="SafePass.disco" MetadataType="Disco" ID="1fd31fc4-5e7b-40ec-bc06-732d2f34281a" SourceId="1" SourceUrl="http://localhost:49995/SafePass.svc?disco" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="8352f1cd-97fb-4317-ac49-0e9ee8d1e55e" SourceId="1" SourceUrl="http://localhost:49995/SafePass.svc?wsdl" />
+    <MetadataFile FileName="SafePass.xsd" MetadataType="Schema" ID="3244c38c-6678-46ca-bd72-28f802ef17df" SourceId="1" SourceUrl="http://localhost:49995/SafePass.svc?xsd=xsd0" />
+    <MetadataFile FileName="SafePass1.xsd" MetadataType="Schema" ID="a8b22f2c-dba9-4c29-ad1f-935ba9157b2c" SourceId="1" SourceUrl="http://localhost:49995/SafePass.svc?xsd=xsd1" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

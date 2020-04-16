@@ -3,9 +3,7 @@ Public Class WebForm4
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        If Session("user") IsNot Nothing Then
-            MyBase.Response.Redirect("~/" & Session("tipo") & ".aspx")
-        End If
+
         Dim result As String
         result = AccesoBD.AccesoBD.ConectarBD()
         Dim email = Request("email")

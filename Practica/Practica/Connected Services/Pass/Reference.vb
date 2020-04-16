@@ -15,26 +15,26 @@ Option Explicit On
 Namespace Pass
     
     <System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0"),  _
-     System.ServiceModel.ServiceContractAttribute(ConfigurationName:="Pass.IPassword")>  _
-    Public Interface IPassword
+     System.ServiceModel.ServiceContractAttribute(ConfigurationName:="Pass.ISafePass")>  _
+    Public Interface ISafePass
         
-        <System.ServiceModel.OperationContractAttribute(Action:="http://tempuri.org/IPassword/esSegura", ReplyAction:="http://tempuri.org/IPassword/esSeguraResponse")>  _
+        <System.ServiceModel.OperationContractAttribute(Action:="http://tempuri.org/ISafePass/esSegura", ReplyAction:="http://tempuri.org/ISafePass/esSeguraResponse")>  _
         Function esSegura(ByVal pass As String) As String
         
-        <System.ServiceModel.OperationContractAttribute(Action:="http://tempuri.org/IPassword/esSegura", ReplyAction:="http://tempuri.org/IPassword/esSeguraResponse")>  _
+        <System.ServiceModel.OperationContractAttribute(Action:="http://tempuri.org/ISafePass/esSegura", ReplyAction:="http://tempuri.org/ISafePass/esSeguraResponse")>  _
         Function esSeguraAsync(ByVal pass As String) As System.Threading.Tasks.Task(Of String)
     End Interface
     
     <System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")>  _
-    Public Interface IPasswordChannel
-        Inherits Pass.IPassword, System.ServiceModel.IClientChannel
+    Public Interface ISafePassChannel
+        Inherits Pass.ISafePass, System.ServiceModel.IClientChannel
     End Interface
     
     <System.Diagnostics.DebuggerStepThroughAttribute(),  _
      System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")>  _
-    Partial Public Class PasswordClient
-        Inherits System.ServiceModel.ClientBase(Of Pass.IPassword)
-        Implements Pass.IPassword
+    Partial Public Class SafePassClient
+        Inherits System.ServiceModel.ClientBase(Of Pass.ISafePass)
+        Implements Pass.ISafePass
         
         Public Sub New()
             MyBase.New
@@ -56,11 +56,11 @@ Namespace Pass
             MyBase.New(binding, remoteAddress)
         End Sub
         
-        Public Function esSegura(ByVal pass As String) As String Implements Pass.IPassword.esSegura
+        Public Function esSegura(ByVal pass As String) As String Implements Pass.ISafePass.esSegura
             Return MyBase.Channel.esSegura(pass)
         End Function
         
-        Public Function esSeguraAsync(ByVal pass As String) As System.Threading.Tasks.Task(Of String) Implements Pass.IPassword.esSeguraAsync
+        Public Function esSeguraAsync(ByVal pass As String) As System.Threading.Tasks.Task(Of String) Implements Pass.ISafePass.esSeguraAsync
             Return MyBase.Channel.esSeguraAsync(pass)
         End Function
     End Class

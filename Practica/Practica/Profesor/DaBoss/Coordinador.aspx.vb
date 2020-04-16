@@ -30,12 +30,12 @@ Public Class Coordinador
     End Sub
 
     Protected Sub DropDownList1_Loaded(sender As Object, e As EventArgs) Handles DropDownList1.DataBound
-        Dim hm As New HorasMediasAsignatura.HorasMediasClient
+        Dim hm As New HorasMedias.HorasMediasClient
         Respuesta.Text = "El numero de horas medias para la asignatura " & DropDownList1.SelectedValue & " es de " & hm.HorasMedias(DropDownList1.SelectedValue)
     End Sub
 
     Protected Sub DropDownList1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles DropDownList1.SelectedIndexChanged
-        Dim hm As New HorasMediasAsignatura.HorasMediasClient
+        Dim hm As New HorasMedias.HorasMediasClient
         Respuesta.Text = "El numero de horas medias para la asignatura " & DropDownList1.SelectedValue & " es de " & hm.HorasMedias(DropDownList1.SelectedValue)
     End Sub
 End Class

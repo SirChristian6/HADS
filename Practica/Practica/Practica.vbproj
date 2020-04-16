@@ -111,21 +111,20 @@
     <Content Include="App_Data\XSLTFileCodigo.xsl" />
     <Content Include="App_Data\XSLTFileDescripcion.xsl" />
     <Content Include="App_Data\XSLTFileHEstimadas.xsl" />
-    <None Include="Connected Services\HorasMediasAsignatura\HorasMedias.disco" />
-    <None Include="Connected Services\HorasMediasAsignatura\configuration91.svcinfo" />
-    <None Include="Connected Services\HorasMediasAsignatura\configuration.svcinfo" />
-    <None Include="Connected Services\HorasMediasAsignatura\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.vb</LastGenOutput>
-    </None>
-    <None Include="Connected Services\Pass\Password.disco" />
+    <None Include="Connected Services\Pass\SafePass.disco" />
     <None Include="Connected Services\Pass\configuration91.svcinfo" />
     <None Include="Connected Services\Pass\configuration.svcinfo" />
     <None Include="Connected Services\Pass\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.vb</LastGenOutput>
     </None>
-    <Content Include="Password.svc" />
+    <None Include="Connected Services\HorasMedias\HorasMedias.disco" />
+    <None Include="Connected Services\HorasMedias\configuration91.svcinfo" />
+    <None Include="Connected Services\HorasMedias\configuration.svcinfo" />
+    <None Include="Connected Services\HorasMedias\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
     <Content Include="Profesor\DaBoss\Coordinador.aspx" />
     <Content Include="Profesor\Estadisticas.aspx" />
     <Content Include="Profesor\DaBoss\Exportar.aspx" />
@@ -135,7 +134,6 @@
     <Content Include="Profesor\InsertarTarea.aspx" />
     <Content Include="Profesor\TareasProfesor.aspx" />
     <Content Include="Alumno\TareasPropiasAlumnos.aspx" />
-    <Content Include="HorasMedias.svc" />
     <Content Include="Web.config" />
     <Content Include="default.aspx" />
     <Content Include="Registro.aspx" />
@@ -146,7 +144,6 @@
     <Content Include="Alumno\TareasAlumno.aspx" />
     <Content Include="Alumno\InstanciarTarea.aspx" />
     <Content Include="Profesor\Profesor.aspx" />
-    <Content Include="Coordinador.asmx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin\Admin.aspx.designer.vb">
@@ -156,19 +153,15 @@
       <DependentUpon>Admin.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Connected Services\HorasMediasAsignatura\Reference.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
     <Compile Include="Connected Services\Pass\Reference.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
-    <Compile Include="IPassword.vb" />
-    <Compile Include="Password.svc.vb">
-      <DependentUpon>Password.svc</DependentUpon>
+    <Compile Include="Connected Services\HorasMedias\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Profesor\DaBoss\Coordinador.aspx.designer.vb">
       <DependentUpon>Coordinador.aspx</DependentUpon>
@@ -177,7 +170,6 @@
       <DependentUpon>Coordinador.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="HorasMedias.vb" />
     <Compile Include="Profesor\Estadisticas.aspx.designer.vb">
       <DependentUpon>Estadisticas.aspx</DependentUpon>
     </Compile>
@@ -316,17 +308,10 @@
       <DependentUpon>Profesor.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="HorasMedias.svc.vb">
-      <DependentUpon>HorasMedias.svc</DependentUpon>
-    </Compile>
     <Compile Include="Web References\ComprobarMatricula\Reference.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.map</DependentUpon>
-    </Compile>
-    <Compile Include="Coordinador.asmx.vb">
-      <DependentUpon>Coordinador.asmx</DependentUpon>
-      <SubType>Component</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -341,20 +326,20 @@
     <None Include="App_Data\tareas.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\HorasMediasAsignatura\HorasMedias.xsd">
+    <None Include="Connected Services\Pass\SafePass.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\HorasMediasAsignatura\HorasMedias1.xsd">
+    <None Include="Connected Services\Pass\SafePass1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\HorasMediasAsignatura\Service2.wsdl" />
-    <None Include="Connected Services\Pass\Password.wsdl" />
-    <None Include="Connected Services\Pass\Password.xsd">
+    <None Include="Connected Services\Pass\Service1.wsdl" />
+    <None Include="Connected Services\HorasMedias\HorasMedias.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\Pass\Password1.xsd">
+    <None Include="Connected Services\HorasMedias\HorasMedias1.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Connected Services\HorasMedias\Service1.wsdl" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -411,8 +396,8 @@
     </WebReferenceUrl>
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\HorasMediasAsignatura\" />
     <WCFMetadataStorage Include="Connected Services\Pass\" />
+    <WCFMetadataStorage Include="Connected Services\HorasMedias\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

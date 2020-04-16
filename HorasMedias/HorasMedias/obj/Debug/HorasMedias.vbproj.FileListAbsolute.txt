@@ -1,0 +1,11 @@
+C:\Users\Christian\source\repos\HorasMedias\HorasMedias\bin\HorasMedias.dll.config
+C:\Users\Christian\source\repos\HorasMedias\HorasMedias\bin\HorasMedias.dll
+C:\Users\Christian\source\repos\HorasMedias\HorasMedias\bin\HorasMedias.pdb
+C:\Users\Christian\source\repos\HorasMedias\HorasMedias\bin\HorasMedias.xml
+C:\Users\Christian\source\repos\HorasMedias\HorasMedias\obj\Debug\HorasMedias.vbprojAssemblyReference.cache
+C:\Users\Christian\source\repos\HorasMedias\HorasMedias\obj\Debug\HorasMedias.Resources.resources
+C:\Users\Christian\source\repos\HorasMedias\HorasMedias\obj\Debug\HorasMedias.vbproj.GenerateResource.cache
+C:\Users\Christian\source\repos\HorasMedias\HorasMedias\obj\Debug\HorasMedias.vbproj.CoreCompileInputs.cache
+C:\Users\Christian\source\repos\HorasMedias\HorasMedias\obj\Debug\HorasMedias.dll
+C:\Users\Christian\source\repos\HorasMedias\HorasMedias\obj\Debug\HorasMedias.xml
+C:\Users\Christian\source\repos\HorasMedias\HorasMedias\obj\Debug\HorasMedias.pdb
